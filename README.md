@@ -34,6 +34,6 @@ The neural network will be based on a dataset containing more than 34,000 organi
 Leaky_Relu was tested becase this function overcome one of the major shortcomings of ReLu. When the value is negative in ReLu, no learning happens. To avoid this issue, researches created the Leaky_Relu. ( ref: https://www.quora.com/What-are-the-advantages-of-using-Leaky-Rectified-Linear-Units-Leaky-ReLU-over-normal-ReLU-in-deep-learning)
 
 ## Summary 
--Despite of the multiple tests, we could not achieve a 75% of perfomance.  The highest values that we obtained was using the Random Forest (this module was selected as reference) and when I combine 4 hidden layers. 
--We can continue analyzing other function combination and increasing the number of hidden layer to improve the perfomance, however we may need more dataset to train our modules. 
--Based on the results it seems like Random Forest could be a better solution. 
+- Despite of the multiple tests, we could not achieve a 75% of perfomance.  The highest values that we obtained was using the Random Forest (this module was selected as reference) and when I combined 4 hidden layers. 
+- We can continue analyzing other function combination and increasing the number of hidden layers to improve the perfomance, however we may need increase the size of hte dataset to train our modules. 
+- Based on the results it seems like Random Forest could be a better solution for this particula case.
