@@ -15,6 +15,9 @@ The neural network will be based on a dataset containing more than 34,000 organi
 ### Compiling, Training and evaluating the model.
 - The first model started with two hidden layers. The first with 80 nodes (activation function ReLu) and the second with 30 nodes (ReLu function as well). The number of hidden layers can be defined by multiple reasons, but as a rule of thumb we can considered two conditions: 2/3 the size of the input layer plus size of the output layer, or less than twice the size of the input layer. For this case, the input (columns) is 44 which sets the limit for the hidden layers in 88. 
 - The result for this first model was: 62 %.
+ 
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/147901175-3866b1d1-4be5-42cd-997a-54170c1ceb00.png">
+
 - In order to improve the performance, we started by removing 4 additional columns : 
   * APPLICATION_TYPE : Alphabet application type. It seems like it is related to internal registration process.  
   * SPECIAL_CONSIDERATIONS : only two possible results.
